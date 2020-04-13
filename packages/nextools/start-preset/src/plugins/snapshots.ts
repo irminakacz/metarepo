@@ -1,6 +1,6 @@
-/* eslint-disable import/named */
-import plugin, { StartFilesProps } from '@start/plugin'
-import { TOptions } from '@x-ray/common-utils'
+import plugin from '@start/plugin'
+import type { StartFilesProps } from '@start/plugin'
+import type { TOptions } from '@x-ray/common-utils'
 
 export default (options: TOptions) =>
   plugin<StartFilesProps, void>('x-ray-snapshots', () => async ({ files }) => {

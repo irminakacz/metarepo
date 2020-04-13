@@ -1,5 +1,6 @@
-import plugin, { StartFilesProps } from '@start/plugin'
-import { TUserOptions } from '@x-ray/firefox-screenshots'
+import plugin from '@start/plugin'
+import type { StartFilesProps } from '@start/plugin'
+import type { TUserOptions } from '@x-ray/firefox-screenshots'
 
 export default (options: TUserOptions) =>
   plugin<StartFilesProps, void>('x-ray', () => async ({ files }) => {

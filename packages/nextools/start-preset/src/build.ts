@@ -1,5 +1,4 @@
 import path from 'path'
-import { StartPlugin } from '@start/plugin'
 import inputFiles from '@start/plugin-input-files'
 import sequence from '@start/plugin-sequence'
 import env from '@start/plugin-env'
@@ -12,6 +11,7 @@ import remove from '@start/plugin-remove'
 import copy from '@start/plugin-copy'
 import parallel from '@start/plugin-parallel'
 import typescriptGenerate from '@start/plugin-lib-typescript-generate'
+import type { StartPlugin } from '@start/plugin'
 import copyAssets from './plugins/copy-assets'
 
 export const buildAssets = async (dir: string) => {

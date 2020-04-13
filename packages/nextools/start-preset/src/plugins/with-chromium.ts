@@ -1,4 +1,5 @@
-import plugin, { StartPlugin } from '@start/plugin'
+import plugin from '@start/plugin'
+import type { StartPlugin } from '@start/plugin'
 
 const CHROMIUM_VERSION = 79
 
