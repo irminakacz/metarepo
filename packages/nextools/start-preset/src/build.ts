@@ -29,6 +29,7 @@ export const buildWeb = async (dir: string): Promise<StartPlugin<{}, {}>> => {
       `${dir}/src/**/*.{js,ts,tsx}`,
       `!${dir}/src/**/*.{native,ios,android}.{js,ts,tsx}`,
       `!${dir}/src/**/*.d.ts`,
+      `!${dir}/src/**/types.ts`,
     ]),
     read,
     babel(babelConfigWebBuild),
@@ -44,6 +45,7 @@ export const buildReactNative = async (dir: string): Promise<StartPlugin<{}, {}>
     [
       `${dir}/src/**/*.{js,ts,tsx}`,
       `!${dir}/src/**/*.d.ts`,
+      `!${dir}/src/**/types.ts`,
     ],
     {
       ignore: ['node_modules/**'],
@@ -87,6 +89,7 @@ export const buildNode = async (dir: string): Promise<StartPlugin<{}, {}>> => {
       `${dir}/src/**/*.{js,ts,tsx}`,
       `!${dir}/src/**/*.{native,ios,android}.{js,ts,tsx}`,
       `!${dir}/src/**/*.d.ts`,
+      `!${dir}/src/**/types.ts`,
     ]),
     read,
     babel(babelConfigNodeBuild),

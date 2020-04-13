@@ -1,5 +1,5 @@
-import { isUndefined, isFunction, TReadonly } from 'tsfn'
-import { TAutoHooks, THookProps } from './types'
+import { isUndefined, isFunction } from 'tsfn'
+import type { TReadonly } from 'tsfn'
 import { compilePackageReleases } from './utils'
 import { getPackagesBumps } from './bump/get-packages-bumps'
 import { readPackage } from './fs/read-package'
@@ -14,8 +14,9 @@ import { pushCommitsAndTags } from './git/push-commits-and-tags'
 import { publishPackages } from './npm/publish-packages'
 import { makePrompt } from './prompt/make-prompt'
 import { promptLog } from './prompt/prompt-log'
-import { TPackageBumpMap } from './bump/types'
-import { TPromptEditResult } from './prompt/types'
+import type { TAutoHooks, THookProps } from './types'
+import type { TPackageBumpMap } from './bump/types'
+import type { TPromptEditResult } from './prompt/types'
 
 export const auto = async (hooks: Readonly<TAutoHooks> = {}) => {
   const { auto: config } = await readPackage(process.cwd())
