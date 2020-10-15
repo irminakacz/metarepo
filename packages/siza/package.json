@@ -27,7 +27,7 @@
     "react-dom": "16.13.1",
     "terser-webpack-plugin": "^4.0.0",
     "tsfn": "^2.2.0",
-    "webpack": "^4.41.6"
+    "webpack": "^5.0.0"
   },
   "devDependencies": {
     "@types/compression-webpack-plugin": "^4.0.0",
