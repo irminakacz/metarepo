@@ -55,7 +55,10 @@ exports.babelConfigWebBuild = {
     {
       test: /\.(ts|js)x$/,
       presets: [
-        require.resolve('@babel/preset-react'),
+        [
+          require.resolve('@babel/preset-react'),
+          { runtime: 'automatic' },
+        ],
       ],
     },
   ],
