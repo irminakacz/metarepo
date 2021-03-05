@@ -1,4 +1,7 @@
 {
+  "compilerOptions": {
+      "jsx": "react"
+  },
   "extends": "@nextools/typescript-config",
   "exclude": [
     "node_modules/",
