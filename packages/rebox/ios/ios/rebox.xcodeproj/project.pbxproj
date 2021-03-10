@@ -8,14 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* reboxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* reboxTests.m */; };
-		10EF03B7DCEF5529DF5D0BA3 /* libPods-reboxTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F27C3B33BC1EA2A1CB65FD3 /* libPods-reboxTests.a */; };
-		11D4C6480B97D3820CC92A30 /* libPods-rebox-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61B46BFBA72C5671638A0D38 /* libPods-rebox-tvOS.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		C1099B47A82C0BCB4A93D098 /* libPods-rebox-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29057FD0BAA284CFA498A6A1 /* libPods-rebox-tvOSTests.a */; };
-		F16AAFFE9B37D239B4E573B5 /* libPods-rebox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54FDDA6BF477E34ECEEB8385 /* libPods-rebox.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,18 +35,6 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = rebox/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = rebox/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = rebox/main.m; sourceTree = "<group>"; };
-		16D31F442E55CE599247FC19 /* Pods-rebox-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rebox-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-rebox-tvOSTests/Pods-rebox-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		1F2BC029547129C8E9369E79 /* Pods-rebox-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rebox-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-rebox-tvOSTests/Pods-rebox-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		1FDDDA2D53F6DAE90B3EB564 /* Pods-rebox-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rebox-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-rebox-tvOS/Pods-rebox-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		29057FD0BAA284CFA498A6A1 /* libPods-rebox-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rebox-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4EBD3A22EE43038EB31D0515 /* Pods-rebox-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rebox-tvOS.release.xcconfig"; path = "Target Support Files/Pods-rebox-tvOS/Pods-rebox-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		54FDDA6BF477E34ECEEB8385 /* libPods-rebox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rebox.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		598AF6449B9A8D27DCB00E3B /* Pods-reboxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reboxTests.release.xcconfig"; path = "Target Support Files/Pods-reboxTests/Pods-reboxTests.release.xcconfig"; sourceTree = "<group>"; };
-		5F27C3B33BC1EA2A1CB65FD3 /* libPods-reboxTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reboxTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		61B46BFBA72C5671638A0D38 /* libPods-rebox-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rebox-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6543685E97F456EDCE69EE8D /* Pods-rebox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rebox.release.xcconfig"; path = "Target Support Files/Pods-rebox/Pods-rebox.release.xcconfig"; sourceTree = "<group>"; };
-		A1F35C69E3333D66D506C2EC /* Pods-reboxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reboxTests.debug.xcconfig"; path = "Target Support Files/Pods-reboxTests/Pods-reboxTests.debug.xcconfig"; sourceTree = "<group>"; };
-		EBA262731DE09B8B65A4CDD1 /* Pods-rebox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rebox.debug.xcconfig"; path = "Target Support Files/Pods-rebox/Pods-rebox.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -59,7 +43,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10EF03B7DCEF5529DF5D0BA3 /* libPods-reboxTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,7 +50,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F16AAFFE9B37D239B4E573B5 /* libPods-rebox.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,10 +90,6 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				54FDDA6BF477E34ECEEB8385 /* libPods-rebox.a */,
-				61B46BFBA72C5671638A0D38 /* libPods-rebox-tvOS.a */,
-				29057FD0BAA284CFA498A6A1 /* libPods-rebox-tvOSTests.a */,
-				5F27C3B33BC1EA2A1CB65FD3 /* libPods-reboxTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -150,14 +128,6 @@
 		FEAAF733ABF35727ADD30806 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EBA262731DE09B8B65A4CDD1 /* Pods-rebox.debug.xcconfig */,
-				6543685E97F456EDCE69EE8D /* Pods-rebox.release.xcconfig */,
-				1FDDDA2D53F6DAE90B3EB564 /* Pods-rebox-tvOS.debug.xcconfig */,
-				4EBD3A22EE43038EB31D0515 /* Pods-rebox-tvOS.release.xcconfig */,
-				16D31F442E55CE599247FC19 /* Pods-rebox-tvOSTests.debug.xcconfig */,
-				1F2BC029547129C8E9369E79 /* Pods-rebox-tvOSTests.release.xcconfig */,
-				A1F35C69E3333D66D506C2EC /* Pods-reboxTests.debug.xcconfig */,
-				598AF6449B9A8D27DCB00E3B /* Pods-reboxTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -169,7 +139,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "reboxTests" */;
 			buildPhases = (
-				AD78F09C14109EB3DA27AC3C /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -188,7 +157,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "rebox" */;
 			buildPhases = (
-				1722F629CD4A7B4B90129C87 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
@@ -256,96 +224,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		1722F629CD4A7B4B90129C87 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-rebox-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-            shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
-		};
-		173FB37666ACDEF60113CB20 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-rebox-tvOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AD78F09C14109EB3DA27AC3C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-reboxTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B1D07204CCF7F661FA21C3C4 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-rebox-tvOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		00E356EA1AD99517003FC87E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -397,11 +275,11 @@
 				);
 				INFOPLIST_FILE = reboxTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-                LD_RUNPATH_SEARCH_PATHS = (
-                        "$(inherited)",
-                        "@executable_path/Frameworks",
-                        "@loader_path/Frameworks",
-                        );
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -420,11 +298,11 @@
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = reboxTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-                LD_RUNPATH_SEARCH_PATHS = (
-                        "$(inherited)",
-                        "@executable_path/Frameworks",
-                        "@loader_path/Frameworks",
-                        );
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -443,10 +321,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				INFOPLIST_FILE = rebox/Info.plist;
-                LD_RUNPATH_SEARCH_PATHS = (
-                        "$(inherited)",
-                        "@executable_path/Frameworks",
-                        );
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -464,10 +342,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = rebox/Info.plist;
-                LD_RUNPATH_SEARCH_PATHS = (
-                        "$(inherited)",
-                        "@executable_path/Frameworks",
-                        );
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",

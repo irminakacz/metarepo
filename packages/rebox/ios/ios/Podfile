@@ -4,7 +4,7 @@ platform :ios, '10.0'
 target 'rebox' do
   # Pods for rebox
   pod 'FBLazyVector', :path => "../../../react-native/Libraries/FBLazyVector"
-  pod 'FBReactNativeSpec', :path => "../../../react-native/Libraries/FBReactNativeSpec"
+  pod 'FBReactNativeSpec', :path => "../../../react-native/React/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../../../react-native/Libraries/RCTRequired"
   pod 'RCTTypeSafety', :path => "../../../react-native/Libraries/TypeSafety"
   pod 'React', :path => '../../../react-native/'
@@ -29,24 +29,17 @@ target 'rebox' do
   pod 'React-callinvoker', :path => "../../../react-native/ReactCommon/callinvoker"
   pod 'ReactCommon/turbomodule/core', :path => "../../../react-native/ReactCommon"
   pod 'Yoga', :path => '../../../react-native/ReactCommon/yoga', :modular_headers => true
+  pod 'React-perflogger', :podspec =>  '../../../react-native/ReactCommon/reactperflogger'
+  pod 'React-runtimeexecutor', :podspec => '../../../react-native/ReactCommon/runtimeexecutor'
 
   pod 'DoubleConversion', :podspec => '../../../react-native/third-party-podspecs/DoubleConversion.podspec'
   pod 'glog', :podspec => '../../../react-native/third-party-podspecs/glog.podspec'
-  pod 'Folly', :podspec => '../../../react-native/third-party-podspecs/Folly.podspec'
+  pod 'RCT-Folly', :podspec => '../../../react-native/third-party-podspecs/RCT-Folly.podspec'
+
   # REBOX
 
   target 'reboxTests' do
     inherit! :complete
     # Pods for testing
   end
-end
-
-target 'rebox-tvOS' do
-  # Pods for rebox-tvOS
-
-  target 'rebox-tvOSTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
 end

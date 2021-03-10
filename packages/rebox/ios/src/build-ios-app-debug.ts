@@ -33,10 +33,13 @@ export const buildIosAppDebug = async (options: TBuildIosAppDebugOptions): Promi
   await dleet(derivedDataPath)
   await makeDir(derivedDataPath)
 
+  console.log('BAMBOOZLE')
+  console.log(`xcodebuild -workspace ${path.join(options.projectPath, 'rebox.xcworkspace')} -scheme rebox -configuration Debug CODE_SIGN_IDENTITY= CODE_SIGNING_ALLOWED=NO -destination "generic/platform=${options.platformName},OS=${options.iOSVersion}" clean build CONFIGURATION_BUILD_DIR=${derivedDataPath}`)
+
   await spawnChildProcess(
     `xcodebuild -workspace ${path.join(options.projectPath, 'rebox.xcworkspace')} -scheme rebox -configuration Debug CODE_SIGN_IDENTITY= CODE_SIGNING_ALLOWED=NO -destination "generic/platform=${options.platformName},OS=${options.iOSVersion}" clean build CONFIGURATION_BUILD_DIR=${derivedDataPath}`,
     {
-      stdout: null,
+      stdout: process.stdout,
       stderr: process.stderr,
       env: {
         RCT_METRO_PORT: '8082',
